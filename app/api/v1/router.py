@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from app.api.v1.endpoints.hello_axione import router as hello_router
+from app.api.v1.endpoints.hello_axitwo import router as hello_router
 from app.api.v1.endpoints.tickets import router as tickets_router
 
 

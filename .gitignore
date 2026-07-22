@@ -35,5 +35,8 @@ htmlcov/
 # SQLite databases
 *.db
 *.sqlite3
-axione.db
+axitwo.db
+
+# IDE files
+.idea/
 
