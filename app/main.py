@@ -16,4 +16,4 @@ async def lifespan(_: FastAPI) -> AsyncIterator[None]:
 app = FastAPI(title="Axitwo API", lifespan=lifespan)
 
 
-app.include_router(api_router, prefix="/api/v1")
+app.include_router(api_router)
